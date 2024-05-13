@@ -1,4 +1,4 @@
-# Uni-Automated-Reasoning
+# Automated-Reasoning
 Solving problems using Z3Py.
 
 ### scheduling problem   
