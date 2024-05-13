@@ -28,12 +28,6 @@ Z3Py code to establish the possibility that the following program causes a crash
 
 Here, ‘←’ is an assignment operator, and ‘?1’ and ‘?2’ are unknown tests that may yield false or true in any situation.
 
-Example crash demo
-
-𝑎 = [1, 2, 3, 3, 3, 17, 22, 28, 35, 134, 143, 153, 153, 570, 583, 597]   
-𝑏 = [1, 1, 4, 8, 14, 14, 36, 64, 99, 99, 242, 395, 417, 417, 1000, 1597]   
-
-
 ----
 
 
