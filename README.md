@@ -1,7 +1,7 @@
 # Uni-Automated-Reasoning
 Solving problems using Z3Py.
 
-### P1
+### scheduling problem   
 
 Z3Py code to solve the scheduling problem is given as follows. There are seven jobs #1, #2, #3, #4, #5, #6 and #7. All jobs are executed by three people A, B, and C. Solutions of the scheduling problem must satisfy all of the following constraints.
 
@@ -20,7 +20,7 @@ Declare only three functions whose domains and ranges are both the set of intege
 
 ----
    
-### P2
+### Crash Me   
 
 Z3Py code to establish the possibility that the following program causes a crash.
 
@@ -37,7 +37,7 @@ Example crash demo
 ----
 
 
-### P3 
+### Magic Square   
 
 Solve the magic squares problem using Z3Py, the task is to construct a magic square, given an incomplete N x N number grid square.   
 
