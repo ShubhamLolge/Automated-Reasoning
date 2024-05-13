@@ -99,6 +99,43 @@ else:
     print(f"No solution found for {grid_size}x{grid_size} Magic Square.")
 
 '''
+Solved the magic squares problem using Z3Py, given an incomplete N x N number grid square.   
+
+#### Importance
+Magic Square is a puzzle with links to pattern recognition and mathematics.
+
+#### Why it is hard to solve
+1. The number of possible arrangements grows exponentially as the grid size increases. 2. The unique occurrence of distinct values adds to the difficulty.
+3. Balancing these constraints while maintaining distinctness adds difficulty.
+4. Enforcing the associative property adds an extra layer of complexity.
+5. Implementing an efficient solver to explore the search space while considering all constraints.
+
+#### Existing Approaches
+Magic squares include approaches like backtracking, Mathematical Constraints and Equations, and constraint satisfaction problems (CSP).
+
+#### Advantages
+1. It efficiently explores the search space for small magic squares. 2. Derived to ensure the correctness of the magic square solution. 3. Solvers are capable of handling complex constraints efficiently.
+
+#### Limitations
+1. Increases in grid size exponentially expand search space. 2. CSP can be complex to formulate.
+Improvement in the existing approach.
+1. Flexibility and versatility due to dynamic code.
+2. Well-structured and modularized code, providing readability, maintainability, and reusability. 3. Output in SMT-LIB2 format.
+4. Encapsulating the logic within a function complete_magic_square().
+5. Early Pruning, setting an upper bound for the magic constant, restricting the range of possible values that the magic constant can take, thereby reducing the search space for the solver.
+
+#### Key components and strengths
+1. Formulation of the magic square problem as a set of constraints, including uniqueness of digits and equality of row/column/diagonal sums
+
+#### Limitations
+1. Use of external libraries such as Z3.
+2. The magic square problem is inherently complex, especially for larger grid sizes. 3. Insufficient information may restrict the solver's ability to provide a valid solution.
+
+#### References
+* Magic Square (2024) Wikipedia. Available at: https://en.wikipedia.org/wiki/Magic_square (Accessed: 21 March 2024).
+* Creating associative magic squares Z3 Python (1967) Stack Overflow. Available at: https://stackoverflow.com/questions/70048300/creating-associative-magic-squares-z3-py thon (Accessed: 21 March 2024).
+* Z3Prover Z3prover/Z3: The Z3 theorem prover, GitHub. Available at: https://github.com/Z3Prover/z3 (Accessed: 21 March 2024).
+
 Output of the code.
 
 shubhamlolge@Shubhams-MacBook-Air submission % python3 P3_23091642.py
